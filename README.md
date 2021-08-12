@@ -1,4 +1,9 @@
 # Harbeck_Adam_PRW
 
-## WEEK 1
-> Week 1 was about building reuasble components that can be styled to fit most situations. The base project with no functionality was completed.
+##Overview
+
+>This repo will is a React created site. The site is going to be a social media style site. It uses 
+CSS modules and Reat components.
+
+### Week 1
+-This week I am designing the intial site using React conmponents and CSS modules.

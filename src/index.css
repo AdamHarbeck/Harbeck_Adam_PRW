@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Questrial&display=swap');
+/*
+logo - 'Amita', cursive;
+text - 'Questrial', san-serif;
+ */
+html{
+  font-size: 62.5%;
+
+}
+body {
+  font-family: 'Questrial', sans-serif;
+  color: #30011E;
+  margin: 0;
+}
