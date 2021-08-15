@@ -1,0 +1,13 @@
+header input::placeholder{
+    color: #DAFFD6;
+    opacity: 80%
+}
+body input::placeholder, body textarea::placeholder{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2rem;
+}
+button:hover {
+    background: #B9D2DF !important;
+    color: #EDFFEB !important;
+    cursor: pointer;
+}

@@ -15,8 +15,7 @@ export default LeftNav;
 
 const styles ={
     lNavContain: {
-        width: 'calc(100%/6)',
-        height: '75rem',
-        background: '#D9E5D6'
+        width: 'calc(100% / 5 - 5rem)',
+        height: '71rem'
     }
 }

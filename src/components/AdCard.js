@@ -11,11 +11,12 @@ export default AdCard;
 
 const styles = {
     container: {
-        width: '98%',
-        margin: '0 auto'
+        maxWidth: '100%',
+        margin: '0 auto',
+        border: '.1rem solid'
     },
     imgStyle:{
-        width: '100%',
+        maxWidth: '100%',
         height: '30rem',
         objectFit: 'cover',
     }

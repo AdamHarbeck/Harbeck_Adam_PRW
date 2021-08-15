@@ -9,11 +9,17 @@ export default Input;
 
 const styles={
     inputStyle: {
-        width: '20rem',
-        height: '3rem',
+        width: '25rem',
+        height: '3.5rem',
         display: 'inline-block',
-        background: '#DFEEF6',
-        border: '.1rem solid',
-        borderRadius: '.5rem'
+        background: '#63768D',
+        border: '.1rem solid #DAFFD6',
+        borderRadius: '.5rem',
+        fontFamily: `'Darker Grotesque', sans-serif`,
+        fontSize: '2rem',
+        boxShadow: 'inset 0 .1rem 2rem #435360',
+        fontWeight: '300',
+        letterSpacing: '.1rem',
+        paddingLeft: '.5rem'
     }
 }

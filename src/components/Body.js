@@ -1,23 +1,13 @@
 import React from "react";
 import PostCard from "./PostCard";
 import CreatePost from "./CreatePost";
-import Prof1 from "../images/person1.jpg";
-import Prof2 from "../images/person2.jpg";
 
 // This will contain the CreatePost and PostCard containers.
-const Body = () =>{
+const Body = props =>{
     return(
         <div style={styles.contentContain}>
             <CreatePost />
-            <div style={styles.pCardContain}>
-                <PostCard avatar={Prof1} username={'Gregory Berks'} title={"Had the most amazing day!"}
-                          description={`We went surfing at La Jolla Beach and it was a BLAST! I couldn't believe how clear the water was.
-                      Then we went and had burgers at this place that had old cars as your booth. SOOOO COOOL`}/>
-                <PostCard avatar={Prof2} username={'Thomas Freed'} title={"Forged in Flame"}
-                          description={`I am binge watching the entire series. I'm on fire with this binging lol. Terrible joke, but I haven't slept in a while.
-                      Thank you coffee for providing caffeine. Another cup bites the dust. And another cup gone.`}/>
-            </div>
-
+            <PostCard  pic={props.val.pPic} username={props.val.pName} title={props.val.pTitle} desc={<img src={props.val.pDesc} alt={props.val.pAlt} style={styles.imgContainer}/>} />
         </div>
     )
 }
@@ -25,14 +15,14 @@ export default Body;
 
 const styles ={
     contentContain: {
-        width: 'calc(100%/6 * 3.9)',
-        background: '#D9E5D6',
-
+        width: 'calc(100%/5 * 3 + 10rem)',
+        border: '.1rem solid',
+        margin: '0 auto',
+        borderTop: 'none',
     },
-    pCardContain: {
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-evenly'
+    imgContainer: {
+        width: '64rem',
+        height: '36rem',
+        objectFit: 'cover'
     }
-
 }

@@ -13,10 +13,11 @@ const styles={
     container:{
         width: '100%',
         height: '5rem',
-        background: '#D9E5D6',
         border: 'none',
-        fontSize: '2rem',
+        fontSize: '2.4rem',
         cursor: 'pointer',
-        fontFamily: `'Questrial', sans-serif`
+        fontFamily: `'Darker Grotesque', sans-serif`,
+        background: '#B9D2DF',
+        letterSpacing: '.1rem'
     }
 }

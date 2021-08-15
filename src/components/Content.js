@@ -2,6 +2,7 @@ import React from "react";
 import LeftNav from "./LeftNav";
 import Body from "./Body";
 import RightNav from "./RightNav";
+
 //If props are not used pass through an empty param.
 const Content = () =>{
     return(
@@ -18,6 +19,7 @@ const styles={
     container: {
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        background: '#B9D2DF'
     }
 }

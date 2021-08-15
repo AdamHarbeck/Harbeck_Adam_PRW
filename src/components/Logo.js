@@ -2,19 +2,14 @@ import React from "react";
 
 const Logo = props => {
     return(
-        <p style={styles.logo}>
-            {props.logoName}
-        </p>
+        <img src={props.logoSrc} alt={'Company logo'} style={styles.logo}/>
     )
 }
 export default Logo;
 
-const styles= {
+const styles={
     logo: {
-        fontFamily: `'Amita', cursive`,
-        fontSize: '4rem',
-        letterSpacing: '.1rem',
-        color: '#30011E',
-        marginRight: '4rem'
+        width: '25rem',
+        marginRight: '2rem'
     }
 }

@@ -4,7 +4,7 @@ import React from "react";
 const CircleButton = props =>{
     return(
         <button style={styles.cirBtnContain}>
-            {props.cBtnIcon}
+            {props.cBtnIcon}{props.btnInfo}
         </button>
     )
 }

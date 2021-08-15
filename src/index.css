@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Questrial&display=swap');
-/*
-logo - 'Amita', cursive;
-text - 'Questrial', san-serif;
- */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500&display=swap');
 html{
   font-size: 62.5%;
-
+  color: #191716;
 }
 body {
-  font-family: 'Questrial', sans-serif;
-  color: #30011E;
+  font-family: 'Darker Grotesque', sans-serif;
   margin: 0;
 }

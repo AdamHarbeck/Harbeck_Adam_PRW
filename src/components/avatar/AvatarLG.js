@@ -12,6 +12,7 @@ const styles={
         width: '10rem',
         borderRadius: '10rem',
         height: '10rem',
-        objectFit: 'cover'
+        objectFit: 'cover',
+        marginRight: '2rem'
     }
 }
