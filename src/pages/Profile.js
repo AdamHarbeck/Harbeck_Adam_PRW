@@ -19,15 +19,21 @@ function Profile(){
        fetchData();
     }, []);
 
+    function view(userData){
+        if(userData.length !== 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
     return(
         <div>
             <Header pageIcon={<IoPersonCircle style={styles.icon}/>} pageTitle={'Profile'} />
             <div>
                 {console.log(userData)}
-                {userData && <FormContainer key={userData.id} userData={userData} />}}
-                {/*{userData.map((userData, id) => (*/}
-                {/*    <FormContainer key={id} userData={userData} />*/}
-                {/*))}*/}
+                {/* If else is need to help with rendering the state*/}
+                {/*{userData.length > 0 ? <FormContainer userData={userData} /> : <p>Loading..</p>}*/}
+                {view(userData) == true ? <FormContainer userData={userData[0]} /> : <p>Loading...</p>}
             </div>
         </div>
     );
